@@ -1,0 +1,37 @@
+﻿.coninfo{
+	padding:8px 0px;
+    line-height: 1.2;
+}
+.coninfo .coninfo-box{
+    
+}
+.coninfo.theme1 .coninfo-box-avatar{
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.coninfo.theme1 > div > *{
+    line-height:32px;
+}
+.coninfo.theme1 .coninfo-box-head span{
+    margin-right: 8px;
+    color: #a3a3a3;
+}
+.coninfo.theme2 .coninfo-box-head{
+	padding-bottom:28px;
+}
+.coninfo.theme2 .coninfo-box-head span{
+	color: #8c8c8c;
+    margin-right: 8px;
+}
+.coninfo.theme2 .coninfo-box-bottom span{
+	color: #8c8c8c;
+    margin-right: 15px;
+}
+.coninfo.theme2 .coninfo-box-bottom span:last-child{
+    margin-right: 0;
+}

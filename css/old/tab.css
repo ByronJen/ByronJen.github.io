@@ -1,0 +1,67 @@
+﻿.tab{
+	padding: 8px 0;
+}
+/*风格一*/
+.tab.theme1{
+	
+}
+.tab.theme1 .tab-title{
+	overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+	border-bottom: 1px solid #ddd;
+}
+.tab.theme1 .tab-title li{
+	line-height: 28px;
+    display: inline-block;
+    padding: 5px 8px;
+    border-bottom: 3px solid #ffffff;
+}
+.tab.theme1 .tab-title .tab-title-this{
+	border-bottom: 3px solid #ff0000;
+}
+.tab.theme1 .tab-content{
+	padding: 8px;
+}
+.tab.theme1 .tab-content > div{
+	display: none;
+    line-height: 20px;
+}
+
+
+/*风格二*/
+.tab.theme2{
+	
+}
+.tab.theme2 .tab-title{
+	overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+	border-bottom: 1px solid #ddd;
+    width: 100%;
+	left: 0;
+    position: relative;
+}
+.tab.theme2 .tab-title-fixed{
+	top: 0;
+    position: fixed;
+	background: #fff;
+    z-index: 999;
+}
+.tab.theme2 .tab-title li{
+	line-height: 28px;
+    display: inline-block;
+    padding: 5px 8px;
+    border-bottom: 3px solid #ffffff;
+}
+.tab.theme2 .tab-title .tab-title-this{
+	border-bottom: 3px solid #ff0000;
+}
+.tab.theme2 .tab-content{
+	padding: 8px;
+}
+.tab.theme2 .tab-item-box{
+    line-height: 20px;
+	padding-bottom: 8px;
+	border-bottom:1px solid #ccc;
+}

@@ -1,0 +1,16 @@
+﻿.share{
+	line-height: 1;
+	text-align: center;
+}
+
+.share-box{
+	
+}
+
+.share-box .share-box-app{
+	text-align: center;
+}
+
+.share-box .share-box-app a{
+	font-size: 2em;
+}

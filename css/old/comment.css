@@ -1,0 +1,36 @@
+﻿.comment{
+	background-color: #fff;
+}
+
+.comment .comment_go p{
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    color: #7d7d7d;
+}
+
+.comment .comment_go_text{
+    line-height: 20px;
+    padding: 5px;
+}
+.comment.theme1{
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 8px;
+    border-top: 1px solid #ddd;
+}
+
+.comment.theme1 .comment_go_btn{
+	margin-left: 8px;
+}
+.comment.theme1 .comment_go_btn .rxyfont{
+	line-height: 30px;
+}
+
+.comment.theme2{
+	position: fixed;
+    bottom: 50px;
+    left: 0;
+    padding: 8px;
+    border-top: 1px solid #ddd;
+}

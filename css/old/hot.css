@@ -1,0 +1,26 @@
+﻿.hot.theme1{background:#FFFFFF;padding: 5px 0 5px 5px; overflow:hidden;}
+.hot.theme1 .hot-box{ height:24px;overflow:hidden; position:relative;}
+.hot.theme1 .hot_box_title{ line-height:24px; font-weight:bold; display:inline-block;}
+.hot.theme1 .hot-box-content,.hot.theme1 .hot-box-copy{ line-height:24px; display:inline-block; position:absolute;width: 81%;padding-left:1%;top:0;}
+.hot.theme1 .hot-box-content a,.hot.theme1 .hot-box-copy a{color:#333;text-decoration: none;display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.hot.theme1 .hot-box-copy{top:24px;}
+.hot.theme2 {background:#FFFFFF;padding: 5px 0 5px 5px; overflow:hidden;}
+.hot.theme2 .hot-box{height:24px;overflow:hidden; position:relative;}
+.hot.theme2 .hot_box_title{line-height: 24px;color:#fff; font-weight: bold; display: inline-block; background: #000; text-align: center; width: 100%;border-radius: 3px;}
+.hot.theme2 .hot-box-content,.hot.theme2 .hot-box-copy{line-height:24px; display:block;width:81%;padding-left:1%; position:absolute; top:0;}
+.hot.theme2 .hot-box-content a,.hot.theme2 .hot-box-copy a{color:#333;text-decoration: none;display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.hot.theme2 .hot-box-copy{top:24px;}
+.hot.theme3 {background:#FFFFFF;padding: 5px 0 5px 5px; overflow:hidden;}
+.hot.theme3 .hot-box{height:24px;overflow:hidden; position:relative;}
+.hot.theme3 .hot_box_title{line-height: 24px;font-weight: bold; display: inline-block;text-align: center; width: 100%;}
+.hot.theme3 .hot-box-content,.hot.theme3 .hot-box-copy{line-height:24px; display:block;width:90%;padding-left:1%; position:absolute; top:0;}
+.hot.theme3 .hot-box-content a,.hot.theme3 .hot-box-copy a{color:#333;text-decoration: none;display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.hot.theme3 .hot-box-copy{top:24px;}
+
+.hot.theme4 {background:#FFFFFF;padding: 5px 0 5px 5px; overflow:hidden;}
+.hot.theme4 .hot-box{height:24px;overflow:hidden; position:relative;}
+.hot.theme4 .hot_box_title{line-height: 24px;font-weight: bold; display: inline-block;text-align: center; width: 100%;}
+.hot.theme4 .hot-box-content{line-height:24px; display:block;width:90%;padding-left:1%; position:absolute; top:0;}
+.hot.theme4 .hot-box-content li{position: absolute;opacity:0;width: 100%;-webkit-transition: all linear .218s;-moz-transition: all linear .218s;transition: all linear .218s;}
+.hot.theme4 .hot-box-content li:first-child{opacity:1;}
+.hot.theme4 .hot-box-content a{color:#333;text-decoration: none;display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}

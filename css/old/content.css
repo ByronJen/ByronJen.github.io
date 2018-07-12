@@ -1,0 +1,81 @@
+﻿.content{
+    line-height: 1.7;
+}
+.content .content-box{
+    overflow-x: hidden;
+}
+.content .content-box *{
+    color: #333;
+    font-size: 16px !important;
+    max-width: 100% !important;
+}
+
+.content .content-box img{
+    height: auto !important;   
+    padding: 5px 0 !important;  
+}
+
+.content.theme1{
+	padding:20px 15px 15px
+}
+
+.content.theme1 .content-box {
+}
+
+.content.theme2{
+}
+
+.content.theme2 .content-box {
+    box-shadow:-3px 0 3px #eee,3px 0 3px #eee,0 -3px 3px #eee,0 3px 3px #eee;  /*左边阴影*//*右边阴影*//*顶部阴影*/ /*底边阴影*/ 
+    padding: 10px 5px; 
+}
+
+.content.theme3{
+
+}
+
+.content.theme3 .content-box {
+
+}
+
+.content.theme4{
+
+}
+
+.content.theme4 .content-box {
+
+}
+.content.theme4 .content-media-video {
+	border-radius: 6px;
+    overflow: hidden;
+    max-width: 800px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
+    background: url(../images/bg_dot.png) repeat center center #1296db;
+}
+
+.content.theme5{
+
+}
+
+.content.theme5 .content-box {
+
+}
+.content.theme5 .content-media{
+	text-align: center;
+}
+.content.theme5 .content-media-audio {
+    max-width: 800px;
+	width: 100%;
+}
+.content.theme5 .content-media-img{
+	width: 120px;
+    border-radius: 50%;
+    height: 120px;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 10px auto;
+    border: 5px solid #fff;
+    box-shadow:-3px 0 3px #eee,3px 0 3px #eee,0 -3px 3px #eee,0 3px 3px #eee;
+}

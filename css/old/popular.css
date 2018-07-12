@@ -1,0 +1,165 @@
+﻿.popular{
+	padding: 4px 0;
+}
+.popular .popular-box {
+
+}
+.popular .popular-item{
+    padding-top: 5px;
+    border-top: 1px dotted #dfdfdf;
+    margin-top: 5px;
+}
+.popular .popular-item:first-child{
+    margin-top: 0;
+	border-top:0;
+    padding-top: 0;
+}
+
+.popular [class*="popular-title"]{
+	padding-bottom:5px;
+	margin-top :4px;
+}
+.popular .popular-title-full a,.popular .popular-title a{
+	line-height: 22px;
+}
+
+.popular-img-full a,.popular-img a{
+	display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
+    background-size: cover;
+    background-position: center center;
+}
+/*风格一*/
+.popular.theme1{
+
+}
+
+.popular.theme1 .popular-title{
+	padding-left: 2%;
+}
+.popular.theme1 .popular-img div:first-child a{
+	width: 98%;
+    margin-right: 2%;
+}
+.popular.theme1 .popular-img div:nth-child(2) a{
+	width: 98%;
+    margin: 0 1%;
+}
+.popular.theme1 .popular-img div:last-child a{
+	width: 98%;
+    margin-left: 2%;
+}
+
+/*风格二*/
+.popular.theme2{
+
+}
+.popular.theme2 .popular-title{
+	padding-left: 2%;
+}
+.popular.theme2 .popular-item{
+	display: inline-block;
+	width: 100%;
+}
+
+.popular.theme2 .popular-img a{
+	width: 98%;
+    margin-right: 2%;
+}
+/*风格三*/
+.popular.theme3{
+
+}
+.popular.theme3 .popular-item{
+	display: inline-block;
+	width: 100%;
+}
+
+.popular.theme3 .popular-title{
+	padding-right: 2%;
+}
+.popular.theme3 .popular-img a{
+	width: 98%;
+    margin-left: 2%;
+}
+
+/*风格四*/
+.popular.theme4{
+
+}
+.popular.theme4 .popular-item-full{
+	display: inline-block;
+	width: 100%;
+}
+
+.popular.theme4 .popular-item:nth-child(odd) .popular-img > a{
+	width: 98%;
+    margin-left: 2%;
+}
+
+.popular.theme4 .popular-item:nth-child(even) .popular-img > a{
+	width: 98%;
+    margin-right: 2%;
+}
+.popular.theme4 .popular-item:nth-child(odd) .popular-title{
+    margin-left: 2%;
+}
+.popular.theme4 .popular-item:nth-child(even) .popular-title{
+    margin-right: 2%;
+}
+.popular.theme4 .popular-img div:first-child a{
+	width: 98%;
+    margin-left: 2%;
+}
+
+.popular.theme4 .popular-img div:last-child a{
+	width: 98%;
+    margin-right: 2%;
+}
+
+/*风格五*/
+.popular.theme5{
+
+}
+
+.popular.theme5 .popular-item {
+	clear: both;
+}
+.popular.theme5 .popular-item > div{
+	padding-bottom:5px;
+}
+.popular.theme5 .popular-img .xst-col-6:first-child{
+	padding-right:1px;
+}
+.popular.theme5 .popular-img .xst-col-6:last-child{
+	padding-left:1px;
+}
+.popular.theme5 .popular-img .xst-col-4:first-child{
+	padding-right:1px;
+}
+.popular.theme5 .popular-img .xst-col-4:nth-child(2){
+	padding:0 1px;
+}
+.popular.theme5 .popular-img .xst-col-4:last-child{
+	padding-left:1px;
+}
+.popular.theme5 .popular-item > div > .popular-title{
+	padding-left:5px;	
+}
+
+/*风格六*/
+.popular.theme6{
+
+}
+.popular.theme6 .popular-item{
+	padding: 0 1px;
+	padding-top: 0px; 
+    border-top: 0px dotted #dfdfdf; 
+	margin-top: 0px;
+}
+.popular.theme6 .popular-img a{
+	
+}

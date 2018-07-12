@@ -1,0 +1,131 @@
+﻿.discuss{
+	padding: 10px 0;
+}
+.discuss.theme1{
+	
+}
+.discuss.theme1 .discuss-item{
+	display: inherit;
+    margin-bottom: 10px;
+    width: 100%;
+	border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+.discuss.theme1 .discuss-item-avatar{
+	display: block;
+    width: 38px;
+    height: 38px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 4px;
+    margin: 2px auto 0;
+}
+.discuss.theme1 .discuss-item-name,.discuss.theme1 .discuss-item-top i{
+	line-height: 18px;
+	color:#656565;
+}
+.discuss.theme1 .discuss-item-top{
+	padding-bottom:4px;
+	padding-right: 13px;
+}
+.discuss.theme1 .discuss-item-name{
+
+}
+.discuss.theme1 .discuss-item-middle{
+	line-height: 18px;
+	padding-right: 13px;
+	font-size:14px;
+}
+.discuss.theme1 .discuss-item-middle-more,.discuss.theme1 .discuss-item-middle-part{
+	padding: 4px 0 0;
+    display: inline-block;
+}
+.discuss.theme1 .discuss-item-middle-text-more{
+}
+.discuss.theme1 .discuss-item-middle-text-part{
+	max-height:108px;
+	overflow: hidden;
+}
+.discuss.theme1 .discuss-item-middle-imgs{
+	padding-top: 8px;
+}
+.discuss.theme1 .discuss-item-middle-imgs a{
+	display:block;
+	margin: 1px;
+	border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
+    background-size: cover;
+    background-position: center center;
+}
+.discuss.theme1 .discuss-item-bottom{
+	line-height: 20px;
+    font-size: 12px;
+	padding:12px 13px 6px 0;
+	clear: both;
+}
+.discuss.theme1 .discuss-reply{
+    margin-right: 13px;
+    padding: 5px;
+}
+.discuss.theme1 .discuss-reply-item{
+	line-height: 16px;
+    font-weight: 100;
+    padding: 3px 0;
+}
+
+
+
+
+.discuss.theme2{
+	
+}
+.discuss.theme2 .discuss-item{
+	display: inherit;
+	padding: 5px;
+}
+.discuss.theme2 .discuss-item-bg{
+	background-repeat: repeat;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.discuss.theme2 .discuss-item-right .discuss-item-bg,.discuss.theme2 .discuss-item-left .discuss-item-bg:nth-child(3n){
+	background-image: url(../images/bg_theme1.png);
+}
+.discuss.theme2 .discuss-item-right .discuss-item-bg:nth-child(2n),.discuss.theme2 .discuss-item-left .discuss-item-bg{
+	background-image: url(../images/bg_theme2.png);
+}
+.discuss.theme2 .discuss-item-right .discuss-item-bg:nth-child(3n),.discuss.theme2 .discuss-item-left .discuss-item-bg:nth-child(2n){
+	background-image: url(../images/bg_theme3.png);
+}
+.discuss.theme2 .discuss-item-right .discuss-item-bg:nth-child(4n),.discuss.theme2 .discuss-item-left .discuss-item-bg:nth-child(3n){
+	background-image: url(../images/bg_theme4.png);
+}
+.discuss.theme2 .discuss-item-avatar{
+	display: block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+.discuss.theme2 .discuss-item-name,.discuss.theme2 .discuss-item-top i{
+	line-height: 20px;
+    font-size: 15px;
+    color: #fff;
+}
+.discuss.theme2 .discuss-item-top{
+	padding-bottom: 8px;
+    display: inline-block;
+    width: 100%;
+}
+.discuss.theme2 .discuss-item-name{
+
+}
+.discuss.theme2 .discuss-item-middle{
+	line-height: 18px;
+}
+.discuss.theme2 .discuss-item-bottom{
+	line-height: 30px;
+	font-size: 12px;
+}

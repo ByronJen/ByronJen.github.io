@@ -1,0 +1,152 @@
+﻿/**
+ * @file iSlider.css
+ */
+
+/**
+ * ===========================
+ * iSlider
+ * ===========================
+ */
+#slider-gallery{
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg_dot.png) rgba(0, 0, 0, .8);
+    top: 0;
+    text-align: center;
+}
+
+.islider-container {
+    display: block;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.islider-container > li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    overflow: hidden;
+    display: box;
+    box-pack: center;
+    box-align: center;
+}
+.islider-container li .dom_imgbg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.islider-container li .dom_imgbg span {
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    padding: 0 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    color: #000;
+    background: linear-gradient(0deg,rgba(248, 249, 249,.8),transparent);
+}
+/**
+ * ===========================
+ * iSlider.plugin.button
+ * ===========================
+ */
+.islider-btn-outer {
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    display: block;
+}
+
+.islider-btn-outer.left {
+    left: 5%;    
+	z-index: 99;
+}
+
+.islider-btn-outer.right {
+    right: 5%;    
+	z-index: 99;
+}
+
+.islider-btn-inner {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.islider-btn-outer.left > .islider-btn-inner {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.islider-btn-outer.right > .islider-btn-inner {
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+/**
+ * ===========================
+ * iSlider.plugin.dot
+ * ===========================
+ */
+.islider-dot-wrap {
+	width: 80%;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.islider-dot {
+    position: relative;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 1px solid #333333;
+    list-style: none;
+    margin: 0 5px;
+}
+
+.islider-dot.active {
+    background-color: #333333;
+}

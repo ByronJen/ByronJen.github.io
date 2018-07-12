@@ -1,0 +1,33 @@
+﻿.pages{
+	padding: 5px 0;
+	text-align: center;
+}
+.pages a,.pages span{
+	line-height: 29px;
+}
+.pages.theme1{
+	
+}
+.pages.theme1 a,.pages.theme1 span{
+	color: #fff;
+	padding: 5px 8px;
+}
+
+.pages.theme2{
+	
+}
+.pages.theme2 a,.pages.theme2 span{
+	color: #fff;
+	padding: 5px 8px;
+	border-radius: 3px;
+}
+
+.pages.theme3{
+	
+}
+.pages.theme3 a{
+	display: block;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 28px;
+}

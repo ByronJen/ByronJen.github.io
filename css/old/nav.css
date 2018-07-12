@@ -1,0 +1,174 @@
+﻿.nav {
+    padding: 2px 0px 8px 0px;
+}
+
+.nav .iconnav-item {
+    display: block;
+    background-position: top center;
+    background-size: 48px 48px;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.nav .iconnav-item span {
+    display: block;
+    padding-top: 50px;
+    line-height: 26px;
+    color: #333;
+}
+
+.nav.theme2 {
+}
+
+.nav.theme2 .nav-box {
+    display: inline-block;
+    width: 100%;
+}
+
+.nav.theme3 {
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding-top: 6px;
+}
+
+.nav.theme3 .nav-box {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+}
+
+.nav.theme3 .nav-box a {
+    padding: 5px 6px;
+    line-height: 31px;
+    background: #ddd;
+    margin-right: 5px;
+    height: 31px;
+    border-radius: 3px;
+}
+
+.nav.theme4 {
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding-top: 6px;
+}
+
+.nav.theme4 .nav-box {
+    display: inline-block;
+    width: 100%;
+}
+
+.nav.theme4 .nav-box .iconnav-item {
+    display: inline-block;
+    width: 16.66666667%;
+    margin-top: 0;
+}
+
+.nav.theme4 .nav-box a {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 48px;
+    line-height: 48px;
+    width: 48px;
+    color: #fff;
+    background-image: url(../images/bg_theme1.png);
+}
+
+.nav.theme4 .nav-box .iconnav-item:nth-child(2n) a {
+    background-image: url(../images/bg_theme2.png);
+}
+
+.nav.theme4 .nav-box .iconnav-item:nth-child(3n) a {
+    background-image: url(../images/bg_theme3.png);
+}
+
+.nav.theme4 .nav-box .iconnav-item:nth-child(4n) a {
+    background-image: url(../images/bg_theme4.png);
+}
+
+.nav.theme5 {}
+
+.nav.theme5 .iconnav-item {
+    margin-bottom: 10px;
+}
+
+.nav.theme6 {
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+}
+
+.nav.theme6 .nav-box {}
+
+.nav.theme6 .nav-box .iconnav-item {
+    margin-top: 2px;
+    padding: 8px 0;
+}
+
+.nav.theme6 .nav-box .iconnav-item span {
+    padding: 0;
+    display: initial;
+}
+
+.nav.theme7 {
+
+}
+.nav.theme7 .nav-box {
+
+}
+.nav.theme7 .nav-box > div{
+	overflow-y: scroll;
+}
+
+.nav.theme7 .nav-box-sideBar{
+    width: 30%;
+}
+.nav.theme7 .nav-box-sideBar .iconnav-item {
+    background-position: center 6px;
+	background-size: 36px 36px;
+    margin-top: 0;
+	border-right: 1px solid #ddd;
+}
+.nav.theme7 .nav-box-sideBar .iconnav-item.current{
+	border-right: 1px solid #ff0000;
+}
+.nav.theme7 .nav-box-sideBar .iconnav-item.current span{
+    color: #ff0000;
+}
+.nav.theme7 .nav-box-sideBar .iconnav-item span{
+	display: block;
+    padding-top: 44px;
+    line-height: 20px;
+    color: #333;
+}
+
+.nav.theme7 .nav-box-menu{
+    width: 70%;
+}
+.nav.theme7 .nav-box-menu .nav-box-menu-item {
+    width: 100%;
+    display: block;
+    line-height: 40px;
+    padding: 0 15px;
+    border-bottom: 1px solid #eee;
+    height: 40px;
+}
+.nav.theme7 .nav-box-menu .nav-box-menu-item span{
+    float: right;
+    background: red;
+    line-height: 20px;
+    margin: 6px 0;
+    height: 22px;
+    padding: 3px;
+    border-radius: 3px;
+    color: #fff;
+    min-width: 30px;
+    text-align: center;
+}
+
+
+

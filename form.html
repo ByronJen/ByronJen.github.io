@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link type="text/css" href="css/public.css" rel="stylesheet" />
+		<link type="text/css" href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="xst-box">
+        <div class="xst-form">
+            <div class="xst-form-box">
+                <input type="text" class="xst-form-control showResult" placeholder="显示提示" />
+            </div>
+            <div class="xst-form-box">
+                <input type="text" class="xst-form-control" placeholder="用户名允许输入字母+数字..." _rule="NumLet" _name="用户名" />
+            </div>
+            <div class="xst-form-box">
+                <input type="tel" class="xst-form-control" placeholder="11位手机号码..." _rule="Phone" _name="手机号" />
+            </div>
+            <div class="xst-form-box">
+                <input type="number" class="xst-form-control" placeholder="只能输入数字哦..." _rule="NumberFloat" _name="金额" maxlength="12" min="8" max="10" step="1" />
+            </div>
+            <div class="xst-form-box">
+                <input type="number" class="xst-form-control" placeholder="只能输入正整数哦..." _rule="NumberInt" _name="发票号" maxlength="12" min="8" max="10" step="1" />
+            </div>
+            <div class="xst-form-box">
+                <input type="email" class="xst-form-control" placeholder="邮箱格式xx@xx.xx" _rule="Email" _name="邮箱" />
+            </div>
+            <div class="xst-form-box">
+                <input type="password" class="xst-form-control" placeholder="请输入密码..." maxlength="12" min="8" max="10" step="1" />
+            </div>
+            <div class="xst-form-box">
+                <input type="url" class="xst-form-control" placeholder="输入网址..." _rule="URL" _name="网址" />
+            </div>
+            <div class="xst-form-box">
+                <input type="date" class="xst-form-control" placeholder="选择时间..." _rule="Date" _name="日期" />
+            </div>
+            <div class="xst-form-box">
+                <input type="datetime" class="xst-form-control" placeholder="选择时间..." />
+            </div>
+            <div class="xst-form-box">
+                <input type="datetime-local" class="xst-form-control" placeholder="选择时间..." />
+            </div>
+            <div class="xst-form-box">
+                <input type="month" class="xst-form-control" placeholder="选择时间..." />
+            </div>
+            <div class="xst-form-box">
+                <input type="week" class="xst-form-control" placeholder="选择时间..." />
+            </div>
+            <div class="xst-form-box">
+                <input type="time" class="xst-form-control" placeholder="选择时间..." />
+            </div>
+            <div class="xst-form-box">
+                <input type="radio" class="xst-form-radio" name="sex" />
+                <input type="radio" class="xst-form-radio" name="sex" />
+            </div>
+            <div class="xst-form-box">
+                <input type="checkbox" class="xst-form-checkbox" />
+                <input type="checkbox" class="xst-form-checkbox" />
+            </div>
+            <div class="xst-form-box">
+                <input type="radio" class="xst-form-radio" name="com" />
+                <input type="radio" class="xst-form-radio" name="com" />
+            </div>
+            <div class="xst-form-box">
+                <input type="range" class="xst-form-control" placeholder="slider 控件的数字字段..." />
+            </div>
+            <div class="xst-form-box">
+                <input type="reset" class="xst-form-btn default" value="重置" />
+            </div>
+            <div class="xst-form-box">
+                <input type="color" class="xst-form-btn default" value="拾色器" />
+            </div>
+            <div class="xst-form-box">
+                <textarea class="xst-form-control xst-noborder" rows="6" placeholder="从这里开始..."></textarea>
+            </div>
+            <div class="xst-form-box textcenter">
+                <a class="xst-form-btn default">默认</a>
+                <a class="xst-form-btn primary">主要</a>
+                <a class="xst-form-btn disable">禁用</a>
+                <a class="xst-form-btn success">成功</a>
+                <br/>
+                <a class="xst-form-btn info">信息</a>
+                <a class="xst-form-btn warning">警告</a>
+                <a class="xst-form-btn danger">危险</a>
+            </div>
+        </div>
+    </div>
+    <div class="space theme1"></div>
+</body>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
+<script type="text/javascript" src="js/form.js"></script>
+
+</html>

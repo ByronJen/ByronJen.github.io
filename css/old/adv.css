@@ -1,0 +1,63 @@
+﻿.adv {
+    padding: 8px 0;
+}
+
+.adv a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 4px;
+    background-position: center center;
+	text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.adv.theme2 div:first-child,
+.adv.theme3 div:first-child,
+.adv.theme4 div:first-child {
+    padding-right: 2px;
+}
+
+.adv.theme2 div:last-child,
+.adv.theme3 div:last-child,
+.adv.theme4 div:last-child {
+    padding-left: 2px;
+}
+
+.adv.theme3 p:first-child,
+.adv.theme4 p:first-child,
+.adv.theme5 p:first-child,
+.adv.theme8 p:first-child,
+.adv.theme8 p:nth-child(2) {
+    margin-bottom: 4px;
+}
+
+.adv.theme5 div:first-child {
+    padding-right: 5px;
+}
+
+.adv.theme5 div:last-child {
+    padding-left: 5px;
+}
+
+.adv.theme7 div {
+    padding-right: 4px;
+}
+
+.adv.theme7 div:last-child {
+    padding-right: 0px;
+}
+
+.adv.theme8 div:first-child {
+    padding-right: 2px;
+}
+
+.adv.theme8 div:last-child {
+    padding-left: 2px;
+}

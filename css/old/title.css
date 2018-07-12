@@ -1,0 +1,57 @@
+﻿.title{
+	padding: 8px 0;
+}
+.title.theme1{
+	
+}
+.title.theme1 .title_h{
+    margin-bottom: 10px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+ 
+.title.theme2{
+	
+}
+.title.theme2 .title_h{
+	text-align: center;
+	background: url(../images/bg_dot.png);
+    background-position: center center;
+    background-repeat: repeat-x;
+}
+.title.theme2 .title_h span{
+	font-size: 20px;
+	line-height: 24px;
+	background-color: #fff;
+    padding: 0 10px;
+}
+
+.title.theme3{
+	
+}
+.title.theme3 .title_h{
+	line-height: 24px;
+}
+.title.theme3 i{
+	font-size: inherit;
+	line-height: 24px;
+}
+
+.title.theme4{
+	
+}
+.title.theme4 .title_h{
+	line-height: 24px;
+}
+.title.theme4 i{
+	font-size: inherit;
+	line-height: 24px;
+}
+.title.theme5{
+	
+}
+.title.theme5 .title_h{
+	text-align: center;
+	line-height: 24px;
+	color: #fff;
+}
